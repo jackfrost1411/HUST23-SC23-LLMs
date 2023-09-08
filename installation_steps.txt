@@ -1,0 +1,9 @@
+mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+mamba install -c conda-forge openai langchain huggingface_hub transformers sentence-transformers
+mamba install -c conda-forge einops
+mamba install -c conda-forge accelerate
+pip install bitsandbytes
+mamba install -c conda-forge pypdf
+mamba install -c conda-forge chromadb
+pip install InstructorEmbedding
+pip install git+https://github.com/huggingface/diffusers
