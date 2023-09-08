@@ -1,3 +1,4 @@
+mamba create -n genai23.08
 mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 mamba install -c conda-forge openai langchain huggingface_hub transformers sentence-transformers
 mamba install -c conda-forge einops
