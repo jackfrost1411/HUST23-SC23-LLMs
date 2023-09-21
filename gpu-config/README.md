@@ -3,7 +3,7 @@
 ### We have 40G and 80G A100s on Sol. Specify the memory required (--mem=XXXG) and number of GPU resources required (gpu:a100:X) accordingly.
 ### If you want to reserve the entire node with max 4 GPUs, leave the number of cores field as blank.
 
-1. [LLaMa2-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf)\
+### 1. [LLaMa2-chat](https://huggingface.co/meta-llama/Llama-2-70b-chat-hf)\
 Model Developers: Meta\
 Variations Llama 2 comes in a range of parameter sizes — 7B, 13B, and 70B — as well as pretrained and fine-tuned variations.\
 Input Models input text only.\
@@ -24,7 +24,7 @@ Approx memory required:
 | 13b         | 49G            | 24G            | 13G                |
 | 70b         | 257G           | 128G           | 67G                |
 
-2. [Falcon / Falcon-instruct](https://huggingface.co/tiiuae/falcon-40b-instruct)\
+### 2. [Falcon / Falcon-instruct](https://huggingface.co/tiiuae/falcon-40b-instruct)\
 Developed by: https://www.tii.ae \
 Model type: Causal decoder-only\
 Language(s) (NLP): English and French\
@@ -42,7 +42,7 @@ Approx memory required:
 | 7b          | 25G            | 13G            | 8G                 |
 | 40b         | 156G           | 78G            | 42G                |
 
-3. [StableBeluga2](https://huggingface.co/stabilityai/StableBeluga2)\
+### 3. [StableBeluga2](https://huggingface.co/stabilityai/StableBeluga2)\
 Developed by: Stability AI\
 Model type: Stable Beluga 2 is an auto-regressive language model fine-tuned on Llama2 70B.\
 Language(s): English\
@@ -58,7 +58,7 @@ Approx memory required:
 |-------------|----------------|----------------|--------------------|
 | 70b         | 257G           | 128G           | 66G                |
 
-4. [MPT / MPT-chat / MPT-instruct](https://huggingface.co/mosaicml/mpt-30b-instruct)\
+### 4. [MPT / MPT-chat / MPT-instruct](https://huggingface.co/mosaicml/mpt-30b-instruct)\
 This model was trained by MosaicML and follows a modified decoder-only transformer architecture.
 **LICENSE: CC-By-SA-3.0**
 
@@ -72,7 +72,7 @@ Approx memory required:
 |-------------|----------------|----------------|--------------------|
 | 30b         | 111G           | 55G            | 30G                |
 
-5. [CodeLlama / CodeLlama-Python / CodeLlama-instruct](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf)\
+### 5. [CodeLlama / CodeLlama-Python / CodeLlama-instruct](https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf)\
 Use of this model is governed by the Meta license. Meta developed and publicly released the Code Llama family of large language models (LLMs).
 
 Variations Code Llama comes in three model sizes, and three variants:
@@ -101,7 +101,7 @@ Approx memory required:
 | 13b         | 49G            | 25G            | x                  |
 | 34b         | 126G           | 64G            | x                  |
 
-6. [falcon-180b / falcon-180b-chat](https://huggingface.co/tiiuae/falcon-180B-chat)\
+### 6. [falcon-180b / falcon-180b-chat](https://huggingface.co/tiiuae/falcon-180B-chat)\
 
 It is made available under the [Falcon-180B TII License](https://falconllm.tii.ae/terms-and-conditions.html) and [Acceptable Use Policy](https://falconllm.tii.ae/acceptable-use-policy.html).
 
