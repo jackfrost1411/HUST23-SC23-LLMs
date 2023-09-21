@@ -20,8 +20,8 @@ Approx memory required:
 
 2. Falcon / Falcon-instruct
 
-model_id = "tiiuae/falcon-7b" or 
-model_id = "tiiuae/falcon-7b-instruct"
+model_id = "tiiuae/falcon-7b" or \
+model_id = "tiiuae/falcon-7b-instruct" \
 (Change the number of parameters in the name)
 
 Approx memory required:
@@ -43,8 +43,8 @@ Approx memory required:
 
 4. MPT / MPT-chat / MPT-instruct
 
-model_id = 'mosaicml/mpt-30b-instruct' or
-model_id = 'mosaicml/mpt-30b-chat' or 
+model_id = 'mosaicml/mpt-30b-instruct' or \
+model_id = 'mosaicml/mpt-30b-chat' or \
 model_id = 'mosaicml/mpt-30b'
 
 Approx memory required:
@@ -55,9 +55,9 @@ Approx memory required:
 
 5. CodeLlama / CodeLlama-Python / CodeLlama-instruct
 
-model_id = "codellama/CodeLlama-7b-hf" or 
-model_id = "codellama/CodeLlama-7b-Python-hf" or
-model_id = "codellama/CodeLlama-7b-instruct-hf"
+model_id = "codellama/CodeLlama-7b-hf" or \
+model_id = "codellama/CodeLlama-7b-Python-hf" or \
+model_id = "codellama/CodeLlama-7b-instruct-hf" \
 (Change the number of parameters in the name)
 
 Approx memory required:
@@ -70,10 +70,10 @@ Approx memory required:
 
 6. falcon-180b / falcon-180b-chat
 
-PLEASE READ THE LICENSE AND ACCEPTABLE USE POLICY BEFORE USING THE MODEL.
-You have to specify the path instead of model id in this case as shown below (the "/" in the end is important):
+PLEASE READ THE LICENSE AND ACCEPTABLE USE POLICY BEFORE USING THE MODEL. \
+You have to specify the path instead of model id in this case as shown below (the "/" in the end is important): \
 
-model_id = "{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/falcon-180B/" or 
+model_id = "{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/falcon-180B/" or \
 model_id = "{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/falcon-180B-chat/"
 
 Approx memory required:
