@@ -7,7 +7,7 @@
 
 You have to specify the path instead of model id in this case as shown below (the "/" in the end is important):
 
-model_id = f"/scratch/dshah47/.cache/licensed_models/Llama2-70b-chat-hf/"
+model_id = f"{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/Llama2-70b-chat-hf/"
 (Change the number of parameters in the name)
 
 Approx memory required:
@@ -73,8 +73,8 @@ Approx memory required:
 PLEASE READ THE LICENSE AND ACCEPTABLE USE POLICY BEFORE USING THE MODEL.
 You have to specify the path instead of model id in this case as shown below (the "/" in the end is important):
 
-model_id = "/scratch/dshah47/.cache/licensed_models/falcon-180B/" or 
-model_id = "/scratch/dshah47/.cache/licensed_models/falcon-180B-chat/"
+model_id = "{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/falcon-180B/" or 
+model_id = "{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/falcon-180B-chat/"
 
 Approx memory required:
 
