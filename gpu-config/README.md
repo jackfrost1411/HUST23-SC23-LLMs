@@ -1,12 +1,14 @@
 GPU Config for Using LLMs
 =========================
 
-We have 40 GiB and 80 GiB SXM4 A100s on the Sol supercomputer, from where these
-materials were prepared. For ASU researchers, or others with similar hardware
-that's scheduled through SLURM, `X` GiB of memory may be allocated with option
-`--mem=XG`, and the number `Y` of 80 GiB A100s to allocate may be specified with 
-`-G Y`. If full nodes are required, the flags `--exclusive` and `--mem=0`
-will appropriately allocate all cores, memory, and GPUs.
+These materials were developed on the [Sol supercomputer][sol], which has
+40 GiB PCIE and 80 GiB SXM4 A100s.  
+
+For ASU researchers, or others with similar hardware that's scheduled through
+SLURM, `X` GiB of memory may be allocated with option `--mem=XG`, and the
+number `Y` of 80 GiB A100s to allocate may be specified with `-G Y`. If full
+nodes are required, the flags `--exclusive` and `--mem=0` will appropriately
+allocate all cores, memory, and GPUs.
 
 LLMs - GPUs and Memory required
 -------------------------------
@@ -33,7 +35,7 @@ for helpfulness and safety.
 **[LICENSE: Meta License](https://ai.meta.com/resources/models-and-libraries/llama-downloads/)**
 
 You have to specify the path instead of model id in this case as shown below
-(the "/" in the end is important):
+(the `/` in the end is important):
 
 ```python
 model_id = f"{os.environ['HUGGINGFACE_HUB_CACHE']}/licensed_models/Llama2-70b-chat-hf/"
@@ -215,3 +217,7 @@ Approximate memory required:
 
 
 
+
+
+
+[sol]: https://doi.org/10.1145/3569951.3597573
