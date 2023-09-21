@@ -1,8 +1,13 @@
-HPC User Support Tools (HUST23) Large Language Models
-=====================================================
+<h1> 
+Centralized provisioning of 
+large language models
+for a research community
+</br>
+HPC User Support Tools (HUST23)
+</h1>
 
 Supplement for an accepted short paper in [HUST23][hust], "Centralized
-provisioning of large language models for a research community", an [SC23][sc]
+provisioning of large language models for a research community," an [SC23][sc]
 workshop. [DOI: 10.1145/3624062.3624147][doi].
 
 This repository provides instructions, scripts, and example notebooks for
