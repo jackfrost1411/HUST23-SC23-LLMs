@@ -14,8 +14,6 @@ workshop. [DOI: 10.1145/3624062.3624147][doi].
 This repository provides instructions, scripts, and example notebooks for
 recreating the centralized-HPC LLM efforts of the authors.
 
----
-
 ## Installation steps
 
 Our production environment exists on Arizona State University's flagship
@@ -35,23 +33,17 @@ appropriate Jupyter kernel. An example is provided in the subdirectory
 3. Create a Jupyter Kernel.
 4. Installation is complete, now run the example notebooks!
 
----
-
 ## Example notebooks
 
 The subdirectory, `example-notebooks`, contains two generalized templated
 Jupyter notebooks that have been shared with Research faculty to get them
 started with LLMs on the Sol supercomputer.
 
----
-
 ## GPU Config
 
 The subdirectory, `gpu-config/`, provides details on the GPU configuration
 necessary to replicate the presented results. For additional hardware details,
 see our short paper on the [Sol supercomputer][sol].
-
----
 
 ## Gradio example image
 
