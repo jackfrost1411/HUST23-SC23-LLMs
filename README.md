@@ -1,10 +1,8 @@
 <h1> 
-<center>
 Centralized provisioning of 
 </br>
 large language models
 for a research community
-</center>
 </br>
 HPC User Support Tools (HUST23)
 </h1>
