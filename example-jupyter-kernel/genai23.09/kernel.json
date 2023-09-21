@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "/packages/envs/genai23.09/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "genai23.09",
+ "language": "python"
+}
