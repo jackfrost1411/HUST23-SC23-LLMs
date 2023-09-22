@@ -8,6 +8,9 @@ only two lines require updating: the python path to any new environment
 and the appropriate display name.
 
 Also see the `mkjupy` script provided by [an external github
-repo](mkjupy). 
+repo][mkjupy]. 
+
+
+
 
 [mkjupy]: https://github.com/jyalim/sol-various-scripts

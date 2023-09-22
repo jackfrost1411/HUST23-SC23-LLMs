@@ -18,7 +18,8 @@ recreating the centralized-HPC LLM efforts of the authors.
 
 Our production environment exists on Arizona State University's flagship
 supercomputer, [Sol][sol], which has a Rocky Linux 8 operating system. However,
-reproduction should only depend on having the `mamba` python package manager.
+reproduction should only depend on having the `mamba` (or with a simple
+subsitution, `conda`) python package manager.
 
 The shell script, `INSTALL_PYTHON_ENV.sh`, may be run to create a `mamba`
 environment called `genai` that mirrors our own. The `mamba export env`
@@ -47,9 +48,9 @@ see our short paper on the [Sol supercomputer][sol].
 
 ## Gradio example image
 
-LLM interaction may be empowered by gradio, which provides a temporary *public*
-web app for a chat-like LLM interface. This is illustrated in the screenshot
-below.
+LLM interaction may be empowered by [gradio][gradio], which provides a
+temporary *public* web app for a chat-like LLM interface. This is illustrated
+in the screenshot below.
 
 <img src="assets/Gradio-Example.png" width="100%" />
 
@@ -59,4 +60,5 @@ below.
 [sc]: https://sc23.supercomputing.org
 [doi]: https://doi.org/10.1145/3624062.3624147
 [sol]: https://doi.org/10.1145/3569951.3597573
+[gradio]: https://www.gradio.app
 
