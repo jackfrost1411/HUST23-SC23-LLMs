@@ -38,7 +38,7 @@ appropriate Jupyter kernel. An example is provided in the subdirectory
 
 The subdirectory, `example-notebooks`, contains two generalized templated
 Jupyter notebooks that have been shared with Research faculty to get them
-started with LLMs on the Sol supercomputer.
+started with LLMs on the Sol supercomputer. 
 
 ## GPU Config
 
@@ -49,8 +49,9 @@ see our short paper on the [Sol supercomputer][sol].
 ## Gradio example image
 
 LLM interaction may be empowered by [gradio][gradio], which provides a
-temporary *public* web app for a chat-like LLM interface. This is illustrated
-in the screenshot below.
+temporary *public* web app for a chat-like LLM interface. The example Jupyter
+notebook, `Chat_with_LLM.ipynb`, provides a template for launching the app,
+and an example of the app is illustrated by the screenshot below.
 
 <img src="assets/Gradio-Example.png" width="100%" />
 
