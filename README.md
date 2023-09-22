@@ -3,11 +3,8 @@ Centralized provisioning of
 </br>
 large language models
 for a research community
-<h2>
 </br>
-</br>
-HPC User Support Tools (HUST23)
-</h2>
+--- HPC User Support Tools (HUST23)
 </h1>
 
 Supplement for an accepted short paper in [HUST23][hust], "Centralized
