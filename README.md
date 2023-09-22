@@ -51,7 +51,7 @@ LLM interaction may be empowered by gradio, which provides a temporary *public*
 web app for a chat-like LLM interface. This is illustrated in the screenshot
 below.
 
-<img src="assets/gradio-example.png" width="100%" />
+<img src="assets/Gradio-Example.png" width="100%" />
 
 
 
