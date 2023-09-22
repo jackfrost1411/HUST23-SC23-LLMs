@@ -29,8 +29,8 @@ and build-order fragilities). Once the environment is created, create an
 appropriate Jupyter kernel. An example is provided in the subdirectory
 `example-jupyter-kernel`. In summary:
 
-1. Install `mamba`, the python package manager and only dependency.
-2. Run the `INSTALL_PYTHON_ENV.sh` shell script.
+1. Install `mamba`, the python package manager and only dependency. 
+2. Run the `INSTALL_PYTHON_ENV.sh` shell script. 
 3. Create a Jupyter Kernel.
 4. Installation is complete, now run the example notebooks!
 
