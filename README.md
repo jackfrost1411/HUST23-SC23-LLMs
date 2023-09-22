@@ -50,7 +50,7 @@ see our short paper on the [Sol supercomputer][sol].
 
 LLM interaction may be empowered by [gradio][gradio], which provides a
 temporary *public* web app for a chat-like LLM interface. The example Jupyter
-notebook, `Chat_with_LLM.ipynb`, provides a template for launching the app,
+notebook, `Chat_with_LLMs.ipynb`, provides a template for launching the app,
 and an example of the app is illustrated by the screenshot below.
 
 <img src="assets/Gradio-Example.png" width="100%" />
