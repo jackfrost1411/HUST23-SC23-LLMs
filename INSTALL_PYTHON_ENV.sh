@@ -21,6 +21,7 @@ pkgs=(
   accelerate
   pypdf
   chromadb
+  gradio
   # for Jupyter accessibility
   ipykernel 
   ipywidgets
